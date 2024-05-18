@@ -1,0 +1,51 @@
+        body{
+            background-color: rgba(252, 216, 203, 0.589);
+            
+           
+        }
+
+        h1{
+            text-align: center;
+            background-color: rgba(141, 116, 135, 0.945);
+            color: white;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .texto {
+            height: 400px;
+            width: 400px;
+
+            border-width: 15px;
+            border-style: groove;
+            border-color: pink;
+            border-radius: 70px;
+
+            background-image: url(leoa.jpeg);
+            background-repeat: no-repeat; 
+            background-position: center; /* Centraliza a imagem */
+            background-size: cover;
+
+            box-shadow: inset 2px 2px 5px 8px rgb(245, 207, 221);
+            
+            padding: 10px;
+                      
+            margin: auto;
+        
+        }
+
+        p {
+            color: white;
+            font-style: italic;
+            font-size: 50px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
+            text-align: center;
+            font-weight: bold;
+            text-shadow: 2px 2px 15px rgb(180, 65, 142);
+            
+        }
+
+        #rodape {
+            text-align: center;
+            font-size: 10px;
+            color: black;
+        }
