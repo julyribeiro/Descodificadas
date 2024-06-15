@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+
+}
+
+body{
+    background-image: url(imagens/img_fundo1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+.Texto_Descodificadas, footer{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.apresentacao{
+    margin-top: 5px;
+    font-size: 12px;
+    text-align: right;
+    padding-right: 10px;
+    color: gray;
+}
+
+h1{
+    font-size: 40px;
+    padding-top: 0px;
+    color: rgb(250, 29, 66);
+    text-shadow: 3px 3px 5px rgb(61, 13, 37);
+}
+
+h2{
+    font-size: 23px;
+    color: rgb(253, 118, 141);
+}
+
+.img_gata{
+    animation: pulsar 1s infinite alternate-reverse;
+}
+
+@keyframes pulsar{
+    0% {
+        transform: scale(.8);
+    }
+
+    100% {
+        transform: scale(1.1);
+    }
+}
+
+footer{
+    font-size: 14px;
+}
+
+.negrito_footer{
+    color: rgba(250, 44, 79);
+    text-shadow: 2px 2px 4px rgb(245, 137, 191);
+}
+
+
+
