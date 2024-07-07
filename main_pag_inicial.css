@@ -1,0 +1,527 @@
+/* --------------------------------------------------------- */
+/*                    IMPORTS (FONTES)                       */
+/* --------------------------------------------------------- */
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap");
+
+/* --------------------------------------------------------- */
+/*                    ESTILIZANDO A CAPA                     */
+/* --------------------------------------------------------- */
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*    DEFIFININDO IMAGEM PARA CAPA     */
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+/* Definindo a imagem de fundo, tamanho e posição da capa */
+#foto_capa {
+  background-image: url(Imagens/1.Página_inicial/capa_pag_inicial.jpg);
+  height: 50vh;
+  background-size: cover;
+  background-position: center;
+}
+
+/*~~~~~~~~~~~~~~~~~~~*/
+/*     TEXTO CAPA    */
+/*~~~~~~~~~~~~~~~~~~~*/
+
+/* Estilizando a data na capa */
+#data_capa {
+  margin: 0;
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: #fff;
+}
+
+/* Estilizando o título na capa */
+#tit_capa {
+  font-family: "Amatic SC", Arial, sans-serif;
+  font-size: 70px;
+  position: relative;
+  padding-top: 10%;
+  font-weight: 800;
+  color: #ead1dc;
+}
+
+/* Centralizando o conteúdo da capa */
+.capa {
+  text-align: center;
+}
+
+/* --------------------------------------------------------- */
+/*                     ESTILIZANDO MAIN                      */
+/* --------------------------------------------------------- */
+
+/*~~~~~~~~~~~~~*/
+/*  BEM VINDO  */
+/*~~~~~~~~~~~~~*/
+
+/* Estilizando a seção de boas-vindas */
+.bem_vindo {
+  background-color: rgba(238, 210, 225, 1);
+  display: block;
+  margin: 0px 0px;
+  padding: 2.5%;
+  text-align: center;
+  color: #c27ba0;
+  font-family: "Bree Serif", Arial, sans-serif;
+  font-weight: 100;
+  font-size: 17px;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~*/
+/* INTRODUÇÃO DO EVENTO */
+/*~~~~~~~~~~~~~~~~~~~~~~*/
+
+/* Estilizando a introdução do evento */
+.introducao {
+  text-align: justify;
+  background-color: #f0f4f9;
+  position: relative;
+  padding: 3% 17% 3% 17%;
+  color: #a64d79;
+  font-family: "Bitter", Arial, sans-serif;
+  line-height: 1.7;
+}
+
+/* Estilizando destaques em negrito na introdução */
+.strong_destaque {
+  color: #741b47;
+  font-weight: 700;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*    IMAGEM DOS DONUTS   */
+/*~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+/* Estilizando a seção de imagens de donuts */
+.img_donuts {
+  display: flex;
+  justify-content: space-around;
+  margin: 0%;
+  background-color: #ead1dc;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/* DESCRIÇÃO QUANTIDADE DE DIAS DO EVENTO */
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+/* Estilizando a descrição da quantidade de dias do evento */
+.quantidade_dias {
+  text-align: center;
+  background-color: #f0f4f9;
+  position: relative;
+  padding-top: 3%;
+  padding-bottom: 2%;
+  font-family: "Roboto", Arial, sans-serif;
+  font-weight: 100;
+  font-size: 27px;
+  color: #a64d79;
+}
+
+/* Adicionando sublinhado ao texto */
+#tres_dias {
+  text-decoration: underline;
+}
+
+/* Estilizando o texto com id "donut_amatic" */
+#donut_amatic {
+  font-family: "Amatic SC", Arial, sans-serif;
+  font-size: 27px;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*   PROGRAMAÇÃO POR DIA   */
+/*~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+/* Estilizando a seção de programação por dia */
+.dias {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  font-family: "Bree Serif", Arial, sans-serif;
+  font-size: 16px;
+  color: #a64d79;
+  margin: 2% 0 3% 0%;
+  background-color: #ead1dc;
+}
+
+/* Estilizando a descrição de cada dia na programação */
+.p_dia {
+  text-align: center;
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 14px;
+  color: #741b47;
+  font-weight: 600;
+  align-items: center;
+  padding-top: 2%;
+  padding-bottom: 4%;
+}
+
+/* Adicionando margem aos títulos dentro da seção dias */
+.dias h4 {
+  margin-bottom: 3%;
+  margin-top: 3%;
+  position: center;
+  
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*   BOTÃO DE CONFIRMAÇÃO   */
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+/* Estilizando a div que contém o botão de confirmação */
+#div_botao {
+  display: flex;
+  justify-content: center;
+  background-image: url(Imagens/1.Página_inicial/capa_pag_inicial.jpg);
+  height: 14vh;
+  align-items: center;
+  background-size: cover;
+  padding: 3% 0;
+  background-position: center;
+  overflow-y: hidden;
+}
+
+/* Estilizando o botão de confirmação de presença */
+#botao_confirmar_presenca {
+  background-color: #ffffffde;
+  color: #741b47;
+  font-family: "Bree Serif", Arial, sans-serif;
+  font-weight: 400;
+  padding: 4px 20px;
+  border: none;
+  border-radius: 7px;
+  text-decoration: none;
+  display: inline-block;
+  margin: 2% 0;
+  transition: 400ms;
+  width: 22%;
+  text-align: center;
+  cursor: pointer;
+}
+
+/* Estilizando o botão de confirmação de presença ao passar o mouse */
+#botao_confirmar_presenca:hover {
+  background-color: #31021a;
+  color: #fff;
+  opacity: 0.6;
+}
+
+/* Removendo o sublinhado dos links e define a cor padrão */
+a {
+  text-decoration: none;
+  color: rgb(155, 29, 92);
+}
+
+/* Alterando a cor dos links ao passar o mouse */
+a:hover {
+  color: #fff;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*  PROGRAMAÇÃO DO EVENTO   */
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+/* Estilizando a seção de programação do evento */
+.programacao_evento {
+  background-color: #f0f4f9;
+  padding-bottom: 1%;
+  font-family: "Roboto", Arial, sans-serif;
+}
+
+/* Estilizando o título da programação do evento */
+.h1_prog_evento {
+  background-color: #f0f4f9;
+  color: #741b47;
+  font-family: "Bree Serif", Arial, sans-serif;
+  font-weight: 400;
+  text-align: center;
+  padding-top: 2%;
+  margin-top: 2%;
+  margin-bottom: 3%;
+  font-size: 17px;
+}
+
+/* Estilizando a descrição de cada dia da programação do evento */
+.dia_1,
+.dia_2,
+.dia_3 {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  border: 1px dashed;
+  border-color: #9c4672;
+  border-radius: 30px;
+  margin: 0% 20% 2% 20%;
+  padding: 2% 2%;
+  color: rgb(83, 83, 83);
+  font-size: 11px;
+  text-align: justify;
+  flex-direction: column;
+  font-family: "Roboto", Arial, sans-serif;
+}
+
+/* Centralizando o conteúdo dos dias da programação */
+.prog_dias {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin-top: 0%;
+}
+
+/* Adicionando margem e padding ao elemento com ID "dia3" */
+#dia3 {
+  margin-right: 2%;
+  padding-left: 2%;
+}
+
+/* Adicionando margem à classe "agenda_dia" */
+.agenda_dia {
+  margin-left: 1%;
+}
+
+/* Estilizando o texto com a classe "dias_prog" */
+.dias_prog {
+  color: #741b47;
+  font-size: 13px;
+  padding: 2%;
+  text-align: center;
+}
+
+/* Adicionando um efeito de hover aos itens de lista dentro da seção de programação do evento */
+.programacao_evento li:hover {
+  opacity: 10;
+}
+
+/* Adicionando padding ao div dentro da seção de programação do evento */
+.programacao_evento div {
+  padding-top: 0%;
+}
+
+/* Adicionando padding à lista ordenada dentro da seção de programação do evento */
+.programacao_evento ol {
+  padding-left: 2%;
+}
+
+/* Estilizando o texto com a classe "periodo" */
+.periodo {
+  padding-left: 2%;
+  color: #741b47;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*    TÍTULO PALESTRANTES   */
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+/* Estilizando a seção de palestrantes */
+.palestrantes {
+  background-color: rgba(238, 210, 225, 1);
+}
+
+.informacoes_palestrantes{
+display: flex;
+justify-content: space-around;
+}
+
+/* Estilizando o título dos palestrantes */
+#tit_palestrantes {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: #a64d79;
+  font-family: "Bree Serif", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  padding: 2% 0;
+}
+
+/* Estilizando a descrição dos palestrantes */
+#desc_palestrantes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 3%;
+  padding-left: 7%;
+  padding-right: 7%;
+  color: #741b47;
+  font-family: "Bree Serif", Arial, sans-serif;
+  font-weight: 400;
+  margin-left: 0 15%;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*  IMAGENS E DESCRIÇÃO DOS PALESTRANTES  */
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+/*Estilizando as imagens e informações dos palestrantes */
+.imagens{  
+  display:flex ;
+  justify-content: space-around;
+  flex-direction: row;
+  width: 1200px;
+  height: 500px;
+  flex-flow: column wrap;
+  padding-left: 5%;
+  margin-bottom: 0%;
+  margin-top: 3.5%;
+}
+
+/* Estilizando o nome dos palestrantes */
+.nome_palestrantes{
+  text-align: center;
+  width:230px;
+  text-align: center; 
+  color: #741b47;
+  font-family: "Bree Serif", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+/* Estilizando a profissão dos palestrantes */
+.profissao_palestrantes{
+  text-align: center;
+  width:230px;
+  color: #000;
+  font-family: "Roboto", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  margin-top: 0%;
+  margin-bottom: 1%;
+}
+
+/* Estilizando a descrição dos palestrantes */
+.p_descricao {
+  text-align: justify;
+  width: 230px;
+  height: 200px;
+  margin: 0%;
+  align-items: center;
+  justify-content: space-around;
+  font-family: "Roboto", Arial, sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  color: #4c1130;
+  margin-bottom: 0%;
+}
+
+/* Bordas nas imagens dos palestrantes */
+.imagens img {
+  border: 5px;
+  border-style: ridge;
+  border-color: #a64d79;
+  border-radius: 10px;
+}
+
+/*~~~~~~~~~*/
+/*  VÍDEO  */
+/*~~~~~~~~~*/
+
+/* Centralizando o vídeo e definindo margens */
+#video {
+  display: flex;
+  justify-content: center;
+  margin: 0 1% 4% 1%;
+  padding: 0;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/* LOCALIZAÇÃO - MAPA E ENDEREÇO DO EVENTO */
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+/* Estilizando a seção de descoberta do paraíso */
+#descubra_paraiso {
+  text-align: center;
+  background-color: #f0f4f9;
+  position: relative;
+  padding: 0% 16% 0% 16%;
+  margin-top: 0%;
+  font-family: "Roboto", Arial, sans-serif;
+  font-weight: 100;
+  font-size: 27px;
+  color: #a64d79;
+}
+
+/* Estilizando o texto com classe "donut_amatic" */
+.donut_amatic {
+  font-family: "Amatic SC", Arial, sans-serif;
+  font-size: 27px;
+}
+
+/* Estilizando a seção do mapa */
+.mapa_section {
+  background-color: #f0f4f9;
+}
+
+/* Estilizando DIV mapa da seção do mapa */
+.mapa {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 3% 15%;
+  font-weight: 700;
+  font-size: 13px;
+}
+
+pre{
+  font-family: "Roboto", Arial, sans-serif;
+}
+
+/* Estilizando a seção de reforço para convite */
+.ref_convite {
+  display: flex;
+  justify-content: center;
+  background-image: url(Imagens/1.Página_inicial/capa_pag_inicial.jpg);
+  background-position: center;
+  align-items: center;
+  background-size: cover;
+  font-family: "Amatic SC", Arial, sans-serif;
+  font-size: 37px;
+  color: #fff;
+  height: 15vh;
+  font-weight: 800;
+}
+
+/*Estilizando os dados para contato*/
+.dados_para_contato {
+  background-color: #f0f4f9;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 2%;
+  margin-bottom: 1%;
+  padding-bottom: 2%;
+  color: rgb(41, 40, 40);
+  font-size: 14px;
+  text-align: center;
+  color: #741b47;
+  font-family: "Bree Serif", Arial, sans-serif;
+  font-weight: 100;
+}
+
+/*Estilizando a cor do h3 da classe dados para contato*/
+.dados_para_contato h3 {
+  color: #a36f84;
+}
+
+/*Estilizando a cor do p da classe contato*/
+.contato{
+  color: #d48099;
+}
+
+
+/* --------------------------------------------------------------------------
+~ OBSERVAÇÃO: AS FOLHAS DE ESTILO ESTÃO EM ARQUIVOS DIFERENTES, SENDO ELES: -
+-                           * header.css                                    -
+-                           * main.css                                      -
+-                           * footer.css                                    -
+--------------------------------------------------------------------------- */
